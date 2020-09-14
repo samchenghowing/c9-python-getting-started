@@ -2,3 +2,9 @@
 # print yesterday's date
 # ask a user to enter a date
 # print the date one week from the date entered
+
+from datetime import date
+
+today = date.today()
+
+print(date.today())
