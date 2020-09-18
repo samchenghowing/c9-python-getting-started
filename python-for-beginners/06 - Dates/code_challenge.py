@@ -5,6 +5,8 @@
 
 from datetime import date
 
-today = date.today()
+#today = date.today()
 
 print(date.today())
+
+print(date.today().day - 1 )

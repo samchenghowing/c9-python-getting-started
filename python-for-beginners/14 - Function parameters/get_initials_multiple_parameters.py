@@ -16,6 +16,6 @@ first_name = input('Enter your first name: ')
 
 # Call get_initial function to retrieve first letter of name
 # Alwasy return initial in uppercase
-first_name_initial = get_initial(first_name, False)
+first_name_initial = get_initial(first_name, True)
 
 print('Your initial is: ' + first_name_initial)

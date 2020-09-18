@@ -1,4 +1,6 @@
 x = 42
-y = 206
-if x == y
+y = 42
+if(x == y):
     print('Success')
+else:
+    print('Fail')
